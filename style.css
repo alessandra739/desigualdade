@@ -107,6 +107,28 @@ footer{
     float: left;
     width: 100%;
 }
+@media all and (max-width: 768px) {
+    #menu{
+        visibility: hidden;
+    }
+    .coluna, .dois, .tres, .quatro{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #logodiv{
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    #logotipo{
+        margin-left: 0px;
+        transform: translateX(-50%);
+    }
+
+}
 
 
 
